@@ -31,10 +31,25 @@
     text-decoration: none;
     font-size: 22px;
     text-shadow:5px 5px 8px #cbbfbf;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+#header ul li a:hover {
+    opacity: 1;
+    transition: 0.25s;
 }
 #banner img{
     width: 100% ;
     padding-bottom: 20px;
+}
+img{
+    opacity:0.6;
+    transition:0.7s;
+}
+img:hover{
+    opacity:1;
+    transition:0.5s;
 }
 #con1{
     width: 335px;
